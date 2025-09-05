@@ -28,21 +28,34 @@ This is the **main proposals repository** where all community proposals are stor
 
 The proposal management system is accessible through our web interface:
 
-### **Main DApp**: https://truesightdao.github.io/dapp/
+### **Main DApp**: [https://truesightdao.github.io/dapp/](https://truesightdao.github.io/dapp/)
 
 ### Key Pages:
-- **📝 Create Proposal**: https://truesightdao.github.io/dapp/create_proposal.html
-- **🗳️ Review & Vote**: https://truesightdao.github.io/dapp/review_proposal.html
-- **📋 View All Proposals**: https://truesightdao.github.io/dapp/view_open_proposals.html
-- **🔐 Create Digital Signature**: https://truesightdao.github.io/dapp/create_signature.html
-- **✅ Verify Requests**: https://truesightdao.github.io/dapp/verify_request.html
+- **📝 Create Proposal**: [https://truesightdao.github.io/dapp/create_proposal.html](https://truesightdao.github.io/dapp/create_proposal.html)
+- **🗳️ Review & Vote**: [https://truesightdao.github.io/dapp/review_proposal.html](https://truesightdao.github.io/dapp/review_proposal.html)
+- **📋 View All Proposals**: [https://truesightdao.github.io/dapp/view_open_proposals.html](https://truesightdao.github.io/dapp/view_open_proposals.html)
+- **🔐 Create Digital Signature**: [https://truesightdao.github.io/dapp/create_signature.html](https://truesightdao.github.io/dapp/create_signature.html)
+- **✅ Verify Requests**: [https://truesightdao.github.io/dapp/verify_request.html](https://truesightdao.github.io/dapp/verify_request.html)
+
+### 🎬 **See It In Action**
+Click any of the links above to see the live system! The DApp is fully functional and you can:
+- Browse existing proposals
+- See real-time vote counts
+- Experience the user interface
+- Understand the complete workflow
 
 ## 📊 Data Tracking
 
 ### Google Sheets Integration
 All proposal submissions and votes are tracked in our main spreadsheet:
-- **Telegram Chat Logs**: https://docs.google.com/spreadsheets/d/1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ
+- **Telegram Chat Logs**: [https://docs.google.com/spreadsheets/d/1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ](https://docs.google.com/spreadsheets/d/1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ)
 - **Proposal Submissions Sheet**: Tracks all processed proposals and their status
+
+### 📊 **Live Data Tracking**
+Click the Google Sheets link above to see:
+- Real-time proposal submissions
+- Vote tracking and status updates
+- Complete audit trail of all activities
 
 ### Data Flow
 ```
@@ -53,8 +66,15 @@ User Submission → DApp → Digital Signature → Google Sheets → GitHub PR �
 
 ### Backend System
 The automated processing is handled by Google Apps Script:
-- **Location**: `/Users/garyjob/Applications/tokenomics/google_app_scripts/tdg_proposal/proposal_manager.gs`
-- **Repository**: https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal
+- **Source Code**: [https://github.com/TrueSightDAO/tokenomics/blob/main/google_app_scripts/tdg_proposal/proposal_manager.gs](https://github.com/TrueSightDAO/tokenomics/blob/main/google_app_scripts/tdg_proposal/proposal_manager.gs)
+- **Repository**: [https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal](https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal)
+
+### 🔧 **Technical Implementation**
+Click the repository link above to see:
+- Complete Google Apps Script source code
+- Automated processing logic
+- Test functions and examples
+- Configuration documentation
 
 ### Key Features
 - **Automated PR Creation**: Proposals become GitHub PRs automatically
@@ -83,16 +103,16 @@ Each proposal is stored as a markdown file with:
 ### For Community Members
 
 1. **Create Digital Signature**
-   - Visit: https://truesightdao.github.io/dapp/create_signature.html
+   - Visit: [https://truesightdao.github.io/dapp/create_signature.html](https://truesightdao.github.io/dapp/create_signature.html)
    - Generate your unique digital signature for voting
 
 2. **Submit a Proposal**
-   - Visit: https://truesightdao.github.io/dapp/create_proposal.html
+   - Visit: [https://truesightdao.github.io/dapp/create_proposal.html](https://truesightdao.github.io/dapp/create_proposal.html)
    - Fill out the proposal form with title and detailed content
    - Submit with your digital signature
 
 3. **Vote on Proposals**
-   - Visit: https://truesightdao.github.io/dapp/view_open_proposals.html
+   - Visit: [https://truesightdao.github.io/dapp/view_open_proposals.html](https://truesightdao.github.io/dapp/view_open_proposals.html)
    - Browse open proposals
    - Click on a proposal to review and vote
    - Submit your YES/NO vote with reasoning
@@ -105,8 +125,8 @@ Each proposal is stored as a markdown file with:
 ### For Developers
 
 1. **View Source Code**
-   - **DApp Frontend**: https://github.com/TrueSightDAO/dapp
-   - **Backend Scripts**: https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal
+   - **DApp Frontend**: [https://github.com/TrueSightDAO/dapp](https://github.com/TrueSightDAO/dapp)
+   - **Backend Scripts**: [https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal](https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal)
 
 2. **Understand the System**
    - Read the technical documentation in the backend repository
@@ -173,8 +193,8 @@ Each proposal is stored as a markdown file with:
 ## 📞 Support and Resources
 
 ### Documentation
-- **Main Tokenomics Repository**: https://github.com/TrueSightDAO/tokenomics
-- **DApp Repository**: https://github.com/TrueSightDAO/dapp
+- **Main Tokenomics Repository**: [https://github.com/TrueSightDAO/tokenomics](https://github.com/TrueSightDAO/tokenomics)
+- **DApp Repository**: [https://github.com/TrueSightDAO/dapp](https://github.com/TrueSightDAO/dapp)
 - **Backend Documentation**: See `/tdg_proposal/README.md` in tokenomics repository
 
 ### Getting Help
@@ -201,6 +221,16 @@ Each proposal is stored as a markdown file with:
 - **Active Proposals**: Check the [DApp interface](https://truesightdao.github.io/dapp/view_open_proposals.html) for current open proposals
 - **Recent Activity**: View recent pull requests in this repository
 - **System Status**: All systems operational and processing proposals automatically
+
+## 🚀 **Quick Start - See It Now!**
+
+**Want to see the system in action immediately?** Click these links:
+
+1. **[View All Open Proposals](https://truesightdao.github.io/dapp/view_open_proposals.html)** - See current proposals and vote counts
+2. **[Create a Test Proposal](https://truesightdao.github.io/dapp/create_proposal.html)** - Try the proposal creation interface
+3. **[Check Live Data](https://docs.google.com/spreadsheets/d/1qbZZhf-_7xzmDTriaJVWj6OZshyQsFkdsAV8-pyzASQ)** - View real-time tracking in Google Sheets
+4. **[Browse Source Code](https://github.com/TrueSightDAO/dapp)** - See how the frontend works
+5. **[Review Backend Logic](https://github.com/TrueSightDAO/tokenomics/tree/main/google_app_scripts/tdg_proposal)** - Understand the automation
 
 ---
 
